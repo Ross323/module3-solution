@@ -1,1 +1,33 @@
+/* Estilos personalizados */
 
+.header {
+  background-color: #ffffff; /* Fondo del encabezado */
+  padding: 20px;
+  
+}
+
+.section-high {
+  background-color: #ffffff; /* Fondo de la sección realmente alta */
+  padding: 20px;
+}
+
+.section {
+  background-color: #ffffff; /* Fondo de las secciones de contenido */
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.bg-grey {
+  background-color: #999c9e;
+}
+
+.navbar-brand {
+  text-align: left;
+}
+/* Estilos para pantallas pequeñas */
+@media (max-width: 767.98px) {
+  .navbar-brand.visible-xs {
+    display: block;
+    text-align: center;
+  }
+}
