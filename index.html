@@ -1,77 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food, LLC Navbar</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        .tall-section {
-            background-color: #a740b1c4; /* Light gray background */
-            height: 1000px; /* Tall enough to require scrolling */
-            margin: 20px 0; /* Margins to distinguish from other content */
-            padding: 20px; /* Padding inside the section */
-          }
-        body {
-            height: 2000px; /* Just to demonstrate scrolling */
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food, LLC - Nuestro Menú</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Food, LLC</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
-      <style>
-        .navbar-nav {
-          background-color: aqua;
-        }
-        .navbar-brand {
-          background-color: aquamarine;
-        }
-      </style>
-        </div>
-    </nav>
-
-    <!-- Content to show scrolling -->
-    <div class="container mt-5">
-        <h1>Welcome to Food, LLC</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim. In hac habitasse platea dictumst. Fusce at nunc euismod, aliquet sapien a, dapibus leo. Nulla facilisi. Morbi bibendum odio et nibh blandit, at sagittis nulla bibendum. Phasellus nec libero odio. Nullam venenatis, augue at aliquet pellentesque, nisi dui fermentum mi, non ultricies tortor magna nec tortor. Maecenas laoreet, quam sed tincidunt aliquam, odio purus suscipit velit, ut vulputate dui turpis non lectus. Nam posuere ligula ut vestibulum suscipit. Nullam et felis id mauris volutpat cursus vel eu ligula.</p>
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-md navbar-light bg-grey fixed-top">
+    <div class="container">
+      <a class="navbar-brand visible-xs" href="#">Food, LLC</a>
     </div>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-    <div class="container-fluid">
+  </nav>
+  <!-- Encabezado de página -->
+  <header class="header">
+    <div class="container text-center">
+     <br>
+     <br>
+      <h1>Our menu</h1>
+    </div>
+  </header>
+  <!-- Secciones de contenido -->
+  <section class="section">
+    <div class="container">
       <div class="row">
-          <div class="col-xs-12 tall-section">
-              <h1>Welcome to Food, LLC</h1>
-              <p>Welcome to Sakura Blossom, an exquisite Japanese restaurant where tradition meets modernity in the heart of the city. From the moment you step inside, you are enveloped by the serene ambiance inspired by the minimalist elegance of traditional Japanese design. The soothing sound of a cascading indoor waterfall complements the delicate aroma of freshly prepared dishes wafting from the open kitchen. Our chefs, trained in the finest culinary schools of Tokyo and Kyoto, bring decades of experience and an unparalleled passion for Japanese cuisine. At Sakura Blossom, we pride ourselves on using only the freshest, highest quality ingredients, sourced both locally and directly from Japan, to ensure an authentic dining experience. Our menu is a harmonious blend of classic and contemporary dishes, offering something for every palate. Start your meal with our signature sashimi platter, featuring expertly sliced pieces of the freshest tuna, salmon, and yellowtail, each piece a testament to the precision and skill of our sushi chefs. For those seeking something warm and comforting, our ramen selection offers rich, flavorful broths simmered for hours, paired with perfectly cooked noodles and a variety of delectable toppings. The tempura, a delicate balance of crispy batter and succulent seafood or vegetables, is a perennial favorite among our patrons. For a unique culinary adventure, try our omakase experience, where the chef crafts a personalized multi-course meal, highlighting the best seasonal ingredients and showcasing the artistry of Japanese cuisine. Complement your meal with our extensive selection of sake, carefully curated to enhance the flavors of our dishes. Our knowledgeable staff is always on hand to guide you through our sake menu, recommending pairings that will elevate your dining experience. The dessert menu at Sakura Blossom is a delightful journey in itself, with options like matcha tiramisu and yuzu sorbet offering a sweet yet refreshing conclusion to your meal. Our commitment to excellence extends beyond the kitchen, as we strive to provide impeccable service, ensuring that each guest feels welcomed and valued. The private dining rooms, adorned with traditional shoji screens and tatami mats, offer an intimate setting for special occasions, while our main dining area, with its sleek, modern decor, is perfect for casual meals and gatherings. Whether you are a long-time aficionado of Japanese cuisine or a first-time visitor, Sakura Blossom promises an unforgettable dining experience that will leave you longing for your next visit. We invite you to join us and discover the exquisite flavors and timeless elegance of Japanese dining at its finest</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim. In hac habitasse platea dictumst. Fusce at nunc euismod, aliquet sapien a, dapibus leo. Nulla facilisi. Morbi bibendum odio et nibh blandit, at sagittis nulla bibendum. Phasellus nec libero odio. Nullam venenatis, augue at aliquet pellentesque, nisi dui fermentum mi, non ultricies tortor magna nec tortor. Maecenas laoreet, quam sed tincidunt aliquam, odio purus suscipit velit, ut vulputate dui turpis non lectus. Nam posuere ligula ut vestibulum suscipit. Nullam et felis id mauris volutpat cursus vel eu ligula.</p>
-              <!-- Add more content here if needed -->
-          </div>
+        <div class="col-md-4">
+          <h3 class="text-center">Pollo</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt.</p>
+          <a href="#header">Volver al principio</a>
+        </div>
+        <div class="col-md-4">
+          <h3 class="text-center">Carne de res</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt.</p>
+          <a href="#header">Volver al principio</a>
+        </div>
+        <div class="col-md-4">
+          <h3 class="text-center">Sushi</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt.</p>
+          <a href="#header">Volver al principio</a>
+        </div>
       </div>
-  </div>
+    </div>
+  </section>
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <section class="section-high">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <!-- Puedes completar esta sección con texto o simplemente con altura -->
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis enim at nisi bibendum, et aliquet nisl tincidunt
+           </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
